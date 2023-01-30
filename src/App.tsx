@@ -55,7 +55,6 @@ function AlbumPicker() {
             </label>
             <button type="submit">Search</button>
             <p>Albums:</p>
-            <p>Donkey</p>
             <ol>
                 {albums.map((album) => (
                     <li>{album}</li>
